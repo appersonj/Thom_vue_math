@@ -53,7 +53,7 @@ export default {
 
 body {
   background-color: #ddccdd;
-  background: url('./assets/screen_plain.png')
+ // background: url('./assets/screen_plain.png')
 }
 
 #app {

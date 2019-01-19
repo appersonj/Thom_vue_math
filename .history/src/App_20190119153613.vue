@@ -1,27 +1,23 @@
 <template>
   <div id="app">
+    <div :style="{ backgroundImage: `url('./assets/screen_plain.png')` }"></div>
+
+    <h1 class="display-4 font-weight-bolder font-italic ">Hey Thomais, lets learn some math !</h1>
+
+     <b-button :size="primary"  class="btn btn-primary btn-xl">
+               Msg: {{buttonMsg1}}
+     </b-button>
 
 
+     <b-button :size="primary"  class="btn btn-primary btn-xl">
+               Msg: {{buttonMsg1}}
+     </b-button>
 
-
-        <h1 class="display-4 font-weight-bolder font-italic ">Hey Thomais, lets learn some math !</h1>
-
-        <b-button :size="primary"  class="btn btn-primary btn-xl">
-                  Msg: {{buttonMsg1}}
-        </b-button>
-
-
-        <b-button :size="primary"  class="btn btn-primary btn-xl">
-                  Msg: {{buttonMsg1}}
-        </b-button>
-
-      <b-button :size="primary" class="btn btn-primary btn-xl">
-                  +
-      </b-button>
-
+  <b-button :size="primary" class="btn btn-primary btn-xl">
+               +
+  </b-button>
 
   </div>
-
 </template>
 
 <script>
@@ -53,7 +49,6 @@ export default {
 
 body {
   background-color: #ddccdd;
-  background: url('./assets/screen_plain.png')
 }
 
 #app {

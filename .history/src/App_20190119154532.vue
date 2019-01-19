@@ -3,6 +3,7 @@
 
 
 
+    <div :style="{ backgroundImage: './assets/screen_plain.png' }">
 
         <h1 class="display-4 font-weight-bolder font-italic ">Hey Thomais, lets learn some math !</h1>
 
@@ -19,6 +20,7 @@
                   +
       </b-button>
 
+    </div>
 
   </div>
 
@@ -53,7 +55,6 @@ export default {
 
 body {
   background-color: #ddccdd;
-  background: url('./assets/screen_plain.png')
 }
 
 #app {
