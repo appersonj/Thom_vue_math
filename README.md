@@ -1,6 +1,6 @@
 # vueboot
 
-> A Vue.js project
+> Thom vue math
 
 ## Build Setup
 
@@ -16,3 +16,9 @@ npm run build
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+Notes:
+
+Tech Notes:
+vue; vue-router; bootstrap
